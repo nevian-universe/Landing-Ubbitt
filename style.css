@@ -76,6 +76,20 @@ img.img-fluid.img-logo {
   max-width: 650px;
 }
 
+.row-jobs {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+}
+
+.row-jobs .col-5 {
+  padding-top: 2em;
+}
+
+.card-body {
+  text-align: center;
+}
+
 .box-jobs .display-6.bold{
   text-align: center;
 }
