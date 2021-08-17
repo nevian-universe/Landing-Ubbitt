@@ -60,13 +60,13 @@ img {
 }
 
 .header-bottom_links a {
-  color: #000;
-  font-size: 12px;
-  font-weight: 600;
+  color: #000 !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
 }
 
 .header-bottom_links a:hover {
-  color: #FF6F61;
+  color: #FF6F61 !important;
 }
 
 .carousel-item.active {
