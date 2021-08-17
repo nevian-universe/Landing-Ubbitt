@@ -2,6 +2,22 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+::-webkit-scrollbar {
+  background: #ffffff00;
+  border-radius: 4px;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FF6F61;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  width: 15px;
+  height: 30px;
+}
+
 img {
   width: -webkit-fill-available;
 }
@@ -35,14 +51,10 @@ img {
   max-width: 100px;
 }
 
-.card-body p{
-
-}
-
 .container.d-flex.justify-content-center, .container-steps {
   padding-top: 6em;
-  padding-left: 4em;
-  padding-right: 4em;
+  padding-left: 7em;
+  padding-right: 7em;
 }
 
 .container.d-flex.justify-content-center .row {
@@ -76,7 +88,11 @@ img {
 .img-flex {
   display: flex;
   float: left;
-  max-width: 250px !important;
+  max-width: 180px !important;
+}
+
+.pd-left {
+   padding-left: 4em !important;
 }
 
 .btn-search svg {
@@ -85,6 +101,7 @@ img {
 
 .nav-link {
   color: #fff !important;
+  font-size: 12px;
 }
 
 .lead  strong{
