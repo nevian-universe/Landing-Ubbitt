@@ -26,6 +26,49 @@ img {
   margin-bottom: 1rem !important;
 }
 
+.header-top {
+  background-color: #000;
+}
+
+.header-top_links li{
+  padding: 10px 20px;
+  border-right: 1px solid #5e5e5e;
+}
+
+.header-top_links a{
+  padding: 0;
+  color: rgb(225, 225, 225);
+  font-size: 12px;
+}
+
+.header-top_links a:hover{
+  padding: 0;
+  color: rgb(191, 191, 191);
+}
+
+.header-bottom.container-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 1em ;
+}
+
+.header-bottom_logo img{
+  max-width: 145px;
+}
+
+.header-bottom_links a {
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.header-bottom_links a:hover {
+  color: #FF6F61;
+}
+
 .carousel-item.active {
   max-height: 100vh;
 }
@@ -55,6 +98,11 @@ img {
   padding-top: 6em;
   padding-left: 7em;
   padding-right: 7em;
+}
+
+.container-header {
+  padding-left: 7em !important;
+  padding-right: 7em !important;
 }
 
 .container.d-flex.justify-content-center .row {
@@ -99,7 +147,7 @@ img {
   fill: #fff;
 }
 
-.nav-link {
+footer .nav-link {
   color: #fff !important;
   font-size: 12px;
 }
@@ -169,7 +217,7 @@ footer {
   margin: auto !important;
 }
 
-.footer-row .col {
+.footer-row .content-link {
   text-align: center;
 }
 
@@ -198,6 +246,16 @@ h4.display-custom.bold.text-secondary {
 
 .title-grid {
   text-align: center;
+}
+
+body.fixed-nav #navbar {
+  z-index: 9;
+  position: fixed;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+  top: 0;
+  max-width: 100%;
+  background-color: #fff;
+  transition: .2s ease;
 }
 
 @media only screen and (max-width:600px) {
@@ -253,7 +311,7 @@ h4.display-custom.bold.text-secondary {
     display: flex;
     float: left;
     max-width: 160px !important;
-    margin-left: 30%;
+    margin-left: 23%;
   }
 
   .mobile-title {
@@ -266,6 +324,26 @@ h4.display-custom.bold.text-secondary {
 
   .card-body p small {
     font-size: .775em;
+  }
+
+  .container.d-flex.justify-content-center, .container-steps {
+    padding-top: 6em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .container-header {
+    padding-left: 2em !important;
+    padding-right: 2em !important;
+  }
+
+  .pd-left {
+    padding-left: 0em !important;
+  }
+
+  .footer-row .content-link {
+    text-align:start;
+    padding-bottom: 2em;
   }
 
 }
