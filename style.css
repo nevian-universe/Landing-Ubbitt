@@ -240,4 +240,12 @@ h4.display-custom.bold.text-secondary {
     display: inherit !important;
   }
 
+  .card-body {
+    padding: 0 !important;
+  }
+
+  .card-body p small {
+    font-size: .775em;
+  }
+
 }
