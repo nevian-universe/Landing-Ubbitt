@@ -31,8 +31,18 @@ img {
   font-weight: 600;
 }
 
+.card-body .img-fluid {
+  max-width: 100px;
+}
+
+.card-body p{
+
+}
+
 .container.d-flex.justify-content-center, .container-steps {
-  padding-top: 8em;
+  padding-top: 6em;
+  padding-left: 4em;
+  padding-right: 4em;
 }
 
 .container.d-flex.justify-content-center .row {
@@ -82,7 +92,7 @@ img {
 }
 
 img.img-fluid.img-logo {
-  max-width: 450px;
+  max-width: 350px;
   margin-bottom: 1em;
 }
 
@@ -101,13 +111,10 @@ img.img-fluid.img-logo {
 
 .row-jobs {
   display: flex !important;
-  justify-content: center !important;
+  justify-content: space-between !important;
   align-items: center;
 }
 
-.row-jobs .col-5 {
-  padding-top: 2em;
-}
 
 .card-body {
   text-align: center;
@@ -121,10 +128,6 @@ img.img-fluid.img-logo {
   text-align: center;
   color: #FF6F61;
   padding-top: 2em;
-}
-
-.container-steps .row {
-
 }
 
 .img-shadow {
